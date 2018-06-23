@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Modelos
 {
-   public class Professor
+    public class Aluno
     {
         public string Nome { get; set;}
 
-        public string Disciplina { get; set; }
+        public int Matricula { get; set; }
     }
 }
